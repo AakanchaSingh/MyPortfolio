@@ -2116,6 +2116,23 @@ button,
   display: flex; }
   #banner h1 {
     margin-top: -0.125em; }
+
+    @media(max-width: 600px) {
+      #banner .content {
+        -moz-flex-grow: 1;
+        -webkit-flex-grow: 1;
+        -ms-flex-grow: 1;
+        flex-grow: 1;
+        -moz-flex-shrink: 1;
+        -webkit-flex-shrink: 1;
+        -ms-flex-shrink: 1;
+        flex-shrink: 1;
+        line-height:20px;
+        width: 50%;
+      }
+    }
+
+    @media(min-width: 601px) {  
   #banner .content {
     -moz-flex-grow: 1;
     -webkit-flex-grow: 1;
@@ -2125,7 +2142,8 @@ button,
     -webkit-flex-shrink: 1;
     -ms-flex-shrink: 1;
     flex-shrink: 1;
-    width: 50%; }
+    line-height:2px;
+    width: 50%; }}
   #banner .image {
     -moz-flex-grow: 0;
     -webkit-flex-grow: 0;
