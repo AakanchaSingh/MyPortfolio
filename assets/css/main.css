@@ -2117,7 +2117,7 @@ button,
   #banner h1 {
     margin-top: -0.125em; }
 
-    @media(max-width: 600px) {
+    @media(max-width: 767px) {
       #banner .content {
         -moz-flex-grow: 1;
         -webkit-flex-grow: 1;
@@ -2132,7 +2132,7 @@ button,
       }
     }
 
-    @media(min-width: 601px) {  
+    @media(min-width: 1024px) {  
   #banner .content {
     -moz-flex-grow: 1;
     -webkit-flex-grow: 1;
